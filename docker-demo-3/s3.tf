@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "terraform-state" {
-  bucket = "terraform-state-a2b6219"
+  bucket = "terraform-statebuck-a2b6219"
 
   tags = {
-    Name = "Terraform state"
+    Name = "Terraform statebuck"
   }
 }
 
