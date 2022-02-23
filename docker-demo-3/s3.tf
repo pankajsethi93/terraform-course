@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "terraform-state" {
-  bucket = "terraform-statebuckk-a2b6219"
+resource "aws_s3_bucket" "terraform-statebuckt" {
+  bucket = "terraform-statebuckt-a2b6219"
+  acl    = "private"
 
   tags = {
-    Name = "Terraform statebuckk"
+    Name = "Terraform statebuckt"
   }
 }
-
